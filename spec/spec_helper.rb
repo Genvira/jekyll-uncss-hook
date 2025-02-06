@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "jekyll/uncss/hook"
+require "jekyll-uncss-hook"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "lib/jekyll/uncss/hook/version"
+require_relative "lib/uncss-hook/version"
 
 Gem::Specification.new do |spec|
   spec.name = "jekyll-uncss-hook"
-  spec.version = Jekyll::Uncss::Hook::VERSION
+  spec.version = Jekyll::UncssHook::VERSION
   spec.authors = ["Aaron Li"]
   spec.email = ["aaron.li@genvira.com"]
 
