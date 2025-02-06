@@ -1,6 +1,6 @@
 # Jekyll::UncssHook
 
-A Jekyll plugin that runs [uncss](https://github.com/giakki/uncss) to remove
+A Jekyll plugin that runs [uncss](https://github.com/uncss/uncss) to remove
 unused CSS from stylesheets. It is based on [jekyll-uncss](https://github.com/episource/jekyll-uncss), but packaged as a gem.
 
 ## Installation
@@ -9,7 +9,7 @@ unused CSS from stylesheets. It is based on [jekyll-uncss](https://github.com/ep
 
 TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
 
-Install [uncss](https://github.com/giakki/uncss) such that it is on the path
+Install [uncss](https://github.com/uncss/uncss) such that it is on the path
 
 ```bash
 npm install -g uncss
@@ -57,7 +57,7 @@ uncss:
   banner: false           # should the output include a banner comment; default: undefined
 ```
 
-The options are mostly the ones in [jekyll-uncss](https://github.com/episource/jekyll-uncss) with a few additional ones from [uncss](https://github.com/giakki/uncss), although they are untested. This plugin does not support compressing
+The options are mostly the ones in [jekyll-uncss](https://github.com/episource/jekyll-uncss) with a few additional ones from [uncss](https://github.com/uncss/uncss), although they are untested. This plugin does not support compressing
 CSS files (unlike [jekyll-uncss](https://github.com/episource/jekyll-uncss)),
 and other plugins can be used for that.
 
