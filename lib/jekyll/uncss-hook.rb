@@ -3,7 +3,7 @@
 require "tempfile"
 
 Jekyll::Hooks.register(:site, :post_write) do |site|
-  # next if ENV["JEKYLL_ENV"] != "production"
+  next if ENV["JEKYLL_ENV"] != "production"
 
   Jekyll.logger.info "UNCSS:"
 
